@@ -12,11 +12,7 @@ public class Calculator {
         int sixDivTwo = six / two;
         int onePlusTwo = one + two;
         int fiveMinusTwo = five - two;
-        int fourTimeTwo = 4 * 2;
+        int fourTimeTwo = four * two;
 
-
-
-
-        System.out.println(sixDivTwo +"\n"+ fiveMinusTwo +"\n"+ fourTimeTwo);
     }
 }
