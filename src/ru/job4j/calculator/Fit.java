@@ -10,9 +10,9 @@ public class Fit {
     }
 
     public static void main(String[] args) {
-        short height = 184;
+        short height = 180;
         double man = Fit.manWeight(height);
-        System.out.println("Ideal weight for men with a height of 184 cm " + man + " kg");
-        System.out.println("Ideal weight for women who are 184 cm tall " + Fit.womanWeight(height) + " kg");
+        System.out.println("Ideal weight for men with a height of 180 cm " + man + " kg");
+        System.out.println("Ideal weight for women who are 180 cm tall " + Fit.womanWeight(height) + " kg");
     }
 }
