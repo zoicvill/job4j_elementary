@@ -27,7 +27,7 @@ public class MultiMaxTest {
 
     @Test
     public void whenTestmax3() {
-        int res = MultiMax.max(10, 10, 10);
-        assertThat(res, is(10));
+        int res = MultiMax.max(10, 20, 5);
+        assertThat(res, is(20));
     }
 }
