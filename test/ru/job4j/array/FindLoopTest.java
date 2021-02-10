@@ -24,4 +24,14 @@ public class FindLoopTest {
         int expect = -1;
         assertThat(result, is(expect));
     }
+
+    @Test
+    public void whenArrayRange() {
+        int value = 89;
+        int start = 2;
+        int finish = 8;
+        int result = FindLoop.indexOf(input, value, start, finish);
+        int expect = 7;
+        assertThat(result, is(expect));
+    }
 }
