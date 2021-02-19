@@ -4,7 +4,6 @@ public class Defragment {
     public static String[] compress(String[] array) {
         for (int i = 0; i < array.length; i++) {
             if (array[i] == null) {
-                //int point = i; // указатель на null ячейку.
                 for (int j = i; j < array.length; j++) {
                     if (array[j] != null) {
                         String buf = array[j];
@@ -14,7 +13,6 @@ public class Defragment {
                     }
                 }
             }
-
             System.out.print(array[i] + " ");
         }
         return array;

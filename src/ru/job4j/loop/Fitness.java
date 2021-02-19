@@ -7,7 +7,6 @@ public class Fitness {
             month += 1;
             ivan *= 3;
             nik *= 2;
-
         }
         System.out.println("Тяга Ивана " + ivan + " Тяга Николая " + nik);
         return month;

@@ -34,7 +34,6 @@ public class SwitchWeek {
     }
 
     public static void main(String[] args) {
-
         String pon = SwitchWeek.nameOfDays(1);
         System.out.println(pon);
         String vt = SwitchWeek.nameOfDays(2);

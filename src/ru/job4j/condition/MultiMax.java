@@ -9,6 +9,6 @@ public class MultiMax {
             result = second;
         } else result = third;
         return result;
-        //return first > second && first > third ? first : second > third ? second : third;
+
     }
 }
